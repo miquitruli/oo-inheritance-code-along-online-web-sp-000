@@ -8,6 +8,10 @@ class Vehicle
     @number = number
   end
 
+  def wheel_number
+    @wheel_number
+  end
+
   def go
     return "vrrrrrrrooom!"
   end
