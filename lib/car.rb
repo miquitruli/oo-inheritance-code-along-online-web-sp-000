@@ -1,11 +1,11 @@
 require_relative "./vehicle.rb"
 
 class Vehicle
-  attr_accessor :wheel_size, :number
+  attr_accessor :wheel_size, :wheel_number
 
-  def initialize(wheel_size, number)
+  def initialize(wheel_size, wheel_number)
     @wheel_size = wheel_size
-    @number = number
+    @wheel_number = wheel_number
   end
 
   def wheel_number
